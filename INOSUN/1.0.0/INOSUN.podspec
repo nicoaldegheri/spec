@@ -24,12 +24,12 @@ Pod::Spec.new do |s|
 
   s.source = { :http => 'http://localhost:8888/INOSUN.framework.zip' }
 
-  s.dependency 'INOLog', '~> 5.0'
-  s.dependency 'INOAnalytics', '~> 1.4'
-  s.dependency 'INOTools', '~> 1.0'
-  s.dependency 'INONetwork', '~> 6.0'
-  s.dependency 'INOWebView', '~> 1.0'
-  s.dependency 'URLNavigator', '~> 1.1'
+  # s.dependency 'INOLog', '~> 5.0'
+  # s.dependency 'INOAnalytics', '~> 1.4'
+  # s.dependency 'INOTools', '~> 1.0'
+  # s.dependency 'INONetwork', '~> 6.0'
+  # s.dependency 'INOWebView', '~> 1.0'
+  # s.dependency 'URLNavigator', '~> 1.1'
 
   s.ios.vendored_frameworks = 'INOSUN.framework'
 
